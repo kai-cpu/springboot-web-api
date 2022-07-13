@@ -3,14 +3,6 @@ package org.example;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * @CreatedDate : 2022/7/13 9:23
- * @ClassName : Application
- * @Version : V1.0
- * @Description :
- * @Author : Administrator
- **/
-
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
