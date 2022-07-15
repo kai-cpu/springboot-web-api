@@ -3,7 +3,6 @@ package org.example.utils;
 import io.jsonwebtoken.Jwt;
 import io.jsonwebtoken.JwtBuilder;
 import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.io.Decoder;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import org.example.config.JwtConfig;
@@ -13,6 +12,7 @@ import javax.annotation.PostConstruct;
 import java.security.Key;
 import java.util.Date;
 import java.util.Map;
+
 
 public class JwtUtil {
 
